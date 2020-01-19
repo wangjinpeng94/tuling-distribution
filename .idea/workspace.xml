@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5438e6fb-c526-48f7-ada3-833770d0a8f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling-distribution.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuling-zookeeper-practice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-client/src/main/java/com/tuling/zookeeper/DataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-client/src/main/java/com/tuling/zookeeper/ZkClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-client/src/main/java/com/tuling/zookeeper/ZookeeperClientTest_csdn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-client/target/classes/com/tuling/zookeeper/DataTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-client/target/classes/com/tuling/zookeeper/DataTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-client/target/classes/com/tuling/zookeeper/ZkClientTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-client/target/classes/com/tuling/zookeeper/ZookeeperClientTest_csdn$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-client/target/classes/com/tuling/zookeeper/ZookeeperClientTest_csdn$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-client/target/classes/com/tuling/zookeeper/ZookeeperClientTest_csdn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-client/zookeeper-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper-client/src/main/java/com/tuling/zookeeper/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-client/src/main/java/com/tuling/zookeeper/DataTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +20,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\idea_store\tuling-distribution\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -59,27 +51,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
-  <component name="RunManager" selected="Application.ZookeeperClientTest_csdn">
-    <configuration name="ZookeeperClientTest_csdn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tuling.zookeeper.ZookeeperClientTest_csdn" />
-      <module name="zookeeper-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tuling.zookeeper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataTest.getData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DataTest.getChild2">
+    <configuration name="DataTest.createData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zookeeper-client" />
       <extension name="coverage">
         <pattern>
@@ -89,7 +69,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tuling.zookeeper" />
       <option name="MAIN_CLASS_NAME" value="com.tuling.zookeeper.DataTest" />
-      <option name="METHOD_NAME" value="getData" />
+      <option name="METHOD_NAME" value="createData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataTest.getChild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tuling.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tuling.zookeeper" />
+      <option name="MAIN_CLASS_NAME" value="com.tuling.zookeeper.DataTest" />
+      <option name="METHOD_NAME" value="getChild" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataTest.getChild2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tuling.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tuling.zookeeper" />
+      <option name="MAIN_CLASS_NAME" value="com.tuling.zookeeper.DataTest" />
+      <option name="METHOD_NAME" value="getChild2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataTest.getData3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tuling.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tuling.zookeeper" />
+      <option name="MAIN_CLASS_NAME" value="com.tuling.zookeeper.DataTest" />
+      <option name="METHOD_NAME" value="getData3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataTest.getData4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tuling.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tuling.zookeeper" />
+      <option name="MAIN_CLASS_NAME" value="com.tuling.zookeeper.DataTest" />
+      <option name="METHOD_NAME" value="getData4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,8 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZookeeperClientTest_csdn" />
-        <item itemvalue="JUnit.DataTest.getData" />
+        <item itemvalue="JUnit.DataTest.getChild2" />
+        <item itemvalue="JUnit.DataTest.createData" />
+        <item itemvalue="JUnit.DataTest.getChild" />
+        <item itemvalue="JUnit.DataTest.getData4" />
+        <item itemvalue="JUnit.DataTest.getData3" />
       </list>
     </recent_temporary>
   </component>
@@ -125,44 +172,60 @@
       <option name="presentableId" value="Default" />
       <updated>1579307610757</updated>
     </task>
+    <task id="LOCAL-00001" summary="图灵分布式练习（zookeeper)">
+      <created>1579320117315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579320117315</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="图灵分布式练习（zookeeper)" />
+    <option name="LAST_COMMIT_MESSAGE" value="图灵分布式练习（zookeeper)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1579314554206">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1579314554206" />
-    <state x="318" y="101" key="CommitChangelistDialog2" timestamp="1579320105540">
+    <state x="318" y="101" key="CommitChangelistDialog2" timestamp="1579320115836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="318" y="101" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579320105540" />
+    <state x="318" y="101" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579320115836" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1579320035432">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579320035432" />
-    <state width="1493" height="60" key="GridCell.Tab.0.bottom" timestamp="1579320105567">
+    <state width="723" height="310" key="GridCell.Tab.0.bottom" timestamp="1579440158677">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="60" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579320105567" />
-    <state width="1493" height="60" key="GridCell.Tab.0.center" timestamp="1579320105567">
+    <state width="723" height="310" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579440158677" />
+    <state width="723" height="310" key="GridCell.Tab.0.center" timestamp="1579440158677">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="60" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579320105567" />
-    <state width="1493" height="60" key="GridCell.Tab.0.left" timestamp="1579320105566">
+    <state width="723" height="310" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579440158677" />
+    <state width="723" height="310" key="GridCell.Tab.0.left" timestamp="1579440158677">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="60" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579320105566" />
-    <state width="1493" height="60" key="GridCell.Tab.0.right" timestamp="1579320105567">
+    <state width="723" height="310" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579440158677" />
+    <state width="723" height="310" key="GridCell.Tab.0.right" timestamp="1579440158677">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="60" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579320105567" />
+    <state width="723" height="310" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579440158677" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1579314651155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579314651155" />
-    <state x="178" y="107" key="new project wizard" timestamp="1579312654016">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1579320400045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1579312654016" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579320400045" />
+    <state x="178" y="107" key="new project wizard" timestamp="1579340839072">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1579340839072" />
   </component>
 </project>
